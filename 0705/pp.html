@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>버튼을 만들자</h3>
+     <hr>
+     <input type="button" size="30" value="1">
+     <input type="button" size="30"value="2">
+     <input type="button" size="30"value="3">
+     <br>
+     <input type="button" size="30" value="4">
+     <input type="button" size="30"value="5">
+     <input type="button" size="30"value="6">
+     <br>
+     <input type="button" size="30" value="7">
+     <input type="button" size="30"value="8">
+     <input type="button" size="30"value="0">
+
+     <h3>웹 브라우저 소개</h3>
+     <hr>
+
+     <table>
+         <tr>
+            <td>
+                <div>
+                브라우저라고 불리기도 하는 웹브라우저는,
+                사용자에게 웹서버 컴퓨터에 접속하고 웹 페이지,
+                이밎,동여상,음악 등 다양한 데이터 다운받아 보여주는
+                소프트웨어이다.그<strong>그림 1-2</strong>는 대표적인 크롬 웹 브라우저를 보여준다.
+                    
+                </div>
+            </td>
+            <td>
+                <figure id="1-2">
+                    <img src="../화면 캡처 2021-07-05 155913.png" width="200">
+                    <figcaption>그림 1-2 구글</figcaption>
+                </figure>
+            </td>
+         </tr>
+        <tr>
+            <td>
+                <div>
+                    웹페이지는 브라우저에 HTML5 문서임을 알리기 위해
+                    <strong>그림 1-3</strong>과 같은 코드를 첫 라인에 삽입한다
+                </div>
+            </td>
+            <td>
+                <figure id="1-3">
+                    <img src="../화면 캡처 2021-07-05 155913.png" width="200">
+                    <figcaption>그림1-3 HTML5 문서 구성</figcaption>
+                </figure>
+            </td>
+        </tr>
+     </table>
+
+     <h3>로그임 폼</h3>
+     <hr>
+     <form>
+     <fieldset>
+         <legend>login</legend>
+           
+                <label>username <input type="text"size="15"> </label>
+                <label>password<input type="password" size="15"></label>
+    
+     </fieldset>
+    </form>
+            
+<h3>웹 프로그래밍 개요</h3>
+<hr>
+<details>
+        <summary>웹의 기본 목적</summary>
+        <p>웹의 기본 목적은 한 컴퓨ㅓ에서 만든 문저를 다른 
+        컴퓨테어서 쉡게 볼 수 있도록 하는 것이다</p>    
+    </details>
+<details>
+<summary> 왜 WEB인가?</summary>
+<p>전 세계의 컴퓨터들을 인터넷으로 거미줄처럼 연결하고 
+    웹 문서를 쉽게 주고 받을 수 있도록 시스템을 만들고 간다히 줄여 웹 이라고 부른다.
+
+</p>
+</details>
+<details>
+    <summary>웹 페이지를 구성하는 3요소</summary>
+    <ul>
+        <li>HTML -문서의 구조와 내용</li>
+        <li>CSS - 문서의 모양</li>
+        <li>Javascript - 행동 및 응용 프로그래ㅑㅁ</li>
+    </ul>
+</details>
+
+<h3>도형 서식 폼 만들기</h3>
+<hr>
+<form>
+    <fieldset>
+        <legend>도형 서식 입력</legend>
+         <label>선종류   <select name="선">
+            <option value="1">선없음</option>
+            <option value="2">실선</option>
+            <option value="3">점선</option>
+        </select><br><br>
+    </label> 
+    <label>선두께 <input type="number" max="20" min="1" step="1"></label>
+    <label>선색 <input type="color" value="#00bfff"></label> <br><br>
+    <label>투명도 <input type="range" list="tr" min="0" max="100"></label>
+
+    <datalist id="tr">
+        <option value="0" label="투명">
+        <option value="50" label="중간">
+        <option value="100" label="불투명">
+    </datalist>
+    </fieldset>
+</form>
+</body>
+</html>
